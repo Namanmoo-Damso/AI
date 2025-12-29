@@ -1,6 +1,6 @@
-# test_backend_ios-ai
+# damso-ai
 
-This repository contains the AI agent extracted from the main `test_backend_ios` project. It includes the voice agent worker that connects to LiveKit and uses OpenAI for STT/LLM/TTS via the LiveKit plugins.
+This repository contains the AI agent extracted from the main `damso-ai` project. It includes the voice agent worker that connects to LiveKit and uses OpenAI for STT/LLM/TTS via the LiveKit plugins.
 
 Quick start
 

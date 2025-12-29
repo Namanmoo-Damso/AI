@@ -52,7 +52,7 @@ Pushing to GitHub
 To push this prepared repository to `git@github.com:Namanmoo-Damso/AI.git` from your machine:
 
 ```bash
-cd path/to/test_backend_ios-ai
+cd path/to/damso-ai
 git init
 git remote add origin git@github.com:Namanmoo-Damso/AI.git
 git add .
