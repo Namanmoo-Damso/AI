@@ -20,3 +20,25 @@ Formatting workflow
 Commit hooks (optional)
 
 Consider adding `pre-commit` with `black`, `ruff`, and `prettier` to enforce formatting locally.
+
+Pre-commit setup (recommended)
+
+1. Install locally (inside your venv):
+
+```bash
+pip install pre-commit
+```
+
+2. Install the git hooks (run once per checkout):
+
+```bash
+pre-commit install
+```
+
+3. To run against all files (e.g., before first commit):
+
+```bash
+pre-commit run --all-files
+```
+
+This repo includes `.pre-commit-config.yaml` and `pyproject.toml` for Black, Ruff, isort, and Prettier.
