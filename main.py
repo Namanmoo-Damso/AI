@@ -13,7 +13,7 @@ async def entrypoint(ctx: JobContext):
     await ctx.connect()
     # 접속 후 메타데이터를 설정해 프론트에서 필터링할 수 있게 합니다.
     await ctx.room.local_participant.set_metadata(
-        '{"type": "agent", "name": "damso-ai"}'
+        '{"type": "agent", "name": "AI"}'
     )
     print(f"--- {ctx.room.name} 방에 접속 성공! 데이터 감시 시작 ---")
 
@@ -29,7 +29,7 @@ async def request_fnc(req: JobRequest):
     print(f"--- 새로운 일거리 요청 받음: {req.room.name} ---")
     # 모든 요청을 수락합니다. 
     # 실제 서비스에서는 여기서 특정 방만 수락하거나 권한을 확인할 수 있습니다.
-    await req.accept(name="damso-ai")
+    await req.accept(name="AI")
 
 # 3. 워커 실행 설정
 if __name__ == "__main__":

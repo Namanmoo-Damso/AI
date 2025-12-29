@@ -1,6 +1,6 @@
-# damso-ai
+# AI
 
-This repository contains the AI agent extracted from the main `damso-ai` project. It includes the voice agent worker that connects to LiveKit and uses OpenAI for STT/LLM/TTS via the LiveKit plugins.
+This repository contains the AI agent extracted from the main `AI` project. It includes the voice agent worker that connects to LiveKit and uses OpenAI for STT/LLM/TTS via the LiveKit plugins.
 
 Quick start
 

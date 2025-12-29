@@ -52,11 +52,11 @@ Pushing to GitHub
 To push this prepared repository to `git@github.com:Namanmoo-Damso/AI.git` from your machine:
 
 ```bash
-cd path/to/damso-ai
+cd path/to/AI
 git init
 git remote add origin git@github.com:Namanmoo-Damso/AI.git
 git add .
-git commit -m "Initial import: AI agent from damso-ai"
+git commit -m "Initial import: AI agent from AI"
 git branch -M main
 git push -u origin main
 ```
