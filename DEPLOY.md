@@ -56,7 +56,7 @@ cd path/to/damso-ai
 git init
 git remote add origin git@github.com:Namanmoo-Damso/AI.git
 git add .
-git commit -m "Initial import: AI agent from test_backend_ios"
+git commit -m "Initial import: AI agent from damso-ai"
 git branch -M main
 git push -u origin main
 ```
